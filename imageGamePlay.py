@@ -93,7 +93,6 @@ class Tile:
             (self.top + 6 * self.height, self.top + 7 * self.height): "7",
             (self.top + 7 * self.height, self.top + 8 * self.height): "8",
         }
-
         
         self.opponent_is_white = opponent_is_white
     
