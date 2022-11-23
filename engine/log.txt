@@ -1,0 +1,219 @@
+
+
+============= Log started. =============
+1123 20:01:11.920818 6352 c:\projects\lc0\src\main.cc:45] Lc0 started.
+1123 20:01:11.921368 6352 c:\projects\lc0\src\main.cc:46] [1m[31m       _
+1123 20:01:11.921681 6352 c:\projects\lc0\src\main.cc:47] |   _ | |
+1123 20:01:11.921997 6352 c:\projects\lc0\src\main.cc:48] |_ |_ |_|[0m v0.28.2 built Dec 13 2021
+1123 20:01:12.257349 6352 c:\projects\lc0\src\utils\numa.cc:56] Detected 4 core(s) and 8 thread(s) in 1 group(s).
+1123 20:01:12.257834 6352 c:\projects\lc0\src\utils\numa.cc:61] Group 0 has 4 core(s) and 8 thread(s).
+1123 20:01:12.261016 6352 c:\projects\lc0\src\utils\commandline.cc:56] Command line: C:\Users\User\Documents\GitHub\lichess-bot\engines\lc0.exe --logfile=log.txt
+1123 20:01:30.460458 6352 c:\projects\lc0\src\chess\uciloop.cc:136] >> go nodes 100
+1123 20:01:30.461925 6352 c:\projects\lc0\src\neural\loader.cc:244] Found pb network file: C:\Users\User\Documents\GitHub\lichess-bot\engines/744204.pb.gz
+1123 20:01:30.513120 6352 c:\projects\lc0\src\neural\factory.cc:91] Creating backend [blas]...
+1123 20:01:30.559612 6352 c:\projects\lc0\src\neural\blas\network_blas.cc:487] BLAS functions from DNNL version 1.5.0
+1123 20:01:30.560055 6352 c:\projects\lc0\src\neural\blas\network_blas.cc:494] BLAS max batch size is 256.
+1123 20:01:30.564579 6352 c:\projects\lc0\src\engine.cc:302] Timer started at 1123 20:01:30.460588
+1123 20:01:30.564904 3148 c:\projects\lc0\src\mcts\search.cc:892] Start a watchdog thread.
+1123 20:01:30.565072 17976 c:\projects\lc0\src\mcts\search.h:243] Started search thread.
+1123 20:01:30.565275 6352 c:\projects\lc0\src\mcts\search.cc:816] Search started. 104ms already passed.
+1123 20:01:30.565301 5916 c:\projects\lc0\src\mcts\search.h:243] Started search thread.
+1123 20:01:30.592739 17976 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 1 seldepth 2 time 132 nodes 2 score cp 11 nps 400 tbhits 0 pv e2e4 c7c5
+1123 20:01:30.602405 5916 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 1 seldepth 2 time 141 nodes 5 score cp 12 nps 333 tbhits 0 pv c2c4 e7e5
+1123 20:01:30.606148 17976 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 2 seldepth 3 time 145 nodes 8 score cp 11 nps 421 tbhits 0 pv e2e4 c7c5 b1c3
+1123 20:01:30.611829 17976 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 2 seldepth 4 time 151 nodes 9 score cp 11 nps 375 tbhits 0 pv e2e4 c7c5 b1c3 e7e6
+1123 20:01:30.635136 5916 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 2 seldepth 4 time 174 nodes 17 score cp 11 nps 354 tbhits 0 pv c2c4 e7e5 g2g3 g8f6
+1123 20:01:30.646202 17976 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 2 seldepth 4 time 185 nodes 19 score cp 11 nps 322 tbhits 0 pv e2e4 c7c5 b1c3 e7e6
+1123 20:01:30.662138 5916 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 5 time 201 nodes 26 score cp 11 nps 346 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2
+1123 20:01:30.704460 17976 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 6 time 243 nodes 34 score cp 11 nps 290 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2
+1123 20:01:30.735742 5916 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 7 time 275 nodes 50 score cp 11 nps 337 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2 b8c6
+1123 20:01:30.743494 17976 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 7 time 282 nodes 57 score cp 12 nps 365 tbhits 0 pv c2c4 e7e5 g2g3 g8f6 f1g2 f8c5
+1123 20:01:30.767155 5916 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 7 time 306 nodes 64 score cp 11 nps 355 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2 b8c6
+1123 20:01:30.776274 17976 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 8 time 315 nodes 71 score cp 11 nps 375 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2 b8c6
+1123 20:01:30.810747 17976 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 4 seldepth 8 time 350 nodes 86 score cp 12 nps 385 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2 b8c6
+1123 20:01:30.846690 17976 c:\projects\lc0\src\mcts\stoppers\stoppers.cc:65] Stopped search: Reached visits limit: 101>=100
+1123 20:01:30.846891 17976 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 4 seldepth 8 time 386 nodes 101 score cp 12 nps 388 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2 b8c6
+1123 20:01:30.847765 17976 c:\projects\lc0\src\mcts\search.cc:489] === Move stats:
+1123 20:01:30.847820 17976 c:\projects\lc0\src\mcts\search.cc:490] g2g4  (378 ) N:       0 (+ 0) (P:  0.73%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.12760) (S: -0.09278) (V:  -.----) 
+1123 20:01:30.847850 17976 c:\projects\lc0\src\mcts\search.cc:490] f2f3  (346 ) N:       0 (+ 0) (P:  0.80%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.14088) (S: -0.07949) (V:  -.----) 
+1123 20:01:30.847874 17976 c:\projects\lc0\src\mcts\search.cc:490] b1a3  (34  ) N:       0 (+ 0) (P:  0.84%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.14811) (S: -0.07226) (V:  -.----) 
+1123 20:01:30.847896 17976 c:\projects\lc0\src\mcts\search.cc:490] g1h3  (161 ) N:       0 (+ 0) (P:  0.86%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.15159) (S: -0.06878) (V:  -.----) 
+1123 20:01:30.847918 17976 c:\projects\lc0\src\mcts\search.cc:490] h2h4  (403 ) N:       0 (+ 0) (P:  0.89%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.15594) (S: -0.06443) (V:  -.----) 
+1123 20:01:30.847940 17976 c:\projects\lc0\src\mcts\search.cc:490] b2b4  (234 ) N:       0 (+ 0) (P:  0.96%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.16886) (S: -0.05151) (V:  -.----) 
+1123 20:01:30.847961 17976 c:\projects\lc0\src\mcts\search.cc:490] f2f4  (351 ) N:       0 (+ 0) (P:  0.98%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.17221) (S: -0.04817) (V:  -.----) 
+1123 20:01:30.847982 17976 c:\projects\lc0\src\mcts\search.cc:490] a2a4  (207 ) N:       0 (+ 0) (P:  1.79%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.31456) (S:  0.09419) (V:  -.----) 
+1123 20:01:30.848004 17976 c:\projects\lc0\src\mcts\search.cc:490] d2d3  (288 ) N:       0 (+ 0) (P:  2.22%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.39006) (S:  0.16968) (V:  -.----) 
+1123 20:01:30.848026 17976 c:\projects\lc0\src\mcts\search.cc:490] a2a3  (204 ) N:       0 (+ 0) (P:  2.46%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.43155) (S:  0.21118) (V:  -.----) 
+1123 20:01:30.848047 17976 c:\projects\lc0\src\mcts\search.cc:490] b2b3  (230 ) N:       0 (+ 0) (P:  2.73%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.47867) (S:  0.25829) (V:  -.----) 
+1123 20:01:30.848068 17976 c:\projects\lc0\src\mcts\search.cc:490] h2h3  (400 ) N:       0 (+ 0) (P:  2.73%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.47907) (S:  0.25870) (V:  -.----) 
+1123 20:01:30.848090 17976 c:\projects\lc0\src\mcts\search.cc:490] c2c3  (259 ) N:       2 (+ 0) (P:  3.41%) (WL:  0.01640) (D: 0.434) (M: 167.3) (Q:  0.01640) (U: 0.19944) (S:  0.21588) (V:  0.0249) 
+1123 20:01:30.848111 17976 c:\projects\lc0\src\mcts\search.cc:490] b1c3  (36  ) N:       2 (+ 0) (P:  3.62%) (WL:  0.01443) (D: 0.424) (M: 163.4) (Q:  0.01443) (U: 0.21185) (S:  0.22656) (V:  0.0184) 
+1123 20:01:30.848133 17976 c:\projects\lc0\src\mcts\search.cc:490] e2e3  (317 ) N:       3 (+ 0) (P:  4.43%) (WL:  0.02603) (D: 0.443) (M: 168.8) (Q:  0.02603) (U: 0.19443) (S:  0.22033) (V:  0.0370) 
+1123 20:01:30.848155 17976 c:\projects\lc0\src\mcts\search.cc:490] g2g3  (374 ) N:       4 (+ 0) (P:  5.40%) (WL:  0.04162) (D: 0.440) (M: 167.3) (Q:  0.04162) (U: 0.18943) (S:  0.23113) (V:  0.0507) 
+1123 20:01:30.848176 17976 c:\projects\lc0\src\mcts\search.cc:490] g1f3  (159 ) N:      11 (+ 0) (P: 10.45%) (WL:  0.07377) (D: 0.456) (M: 169.8) (Q:  0.07377) (U: 0.15277) (S:  0.22588) (V:  0.0655) 
+1123 20:01:30.848198 17976 c:\projects\lc0\src\mcts\search.cc:490] d2d4  (293 ) N:      24 (+ 3) (P: 17.64%) (WL:  0.08528) (D: 0.441) (M: 167.6) (Q:  0.08528) (U: 0.11053) (S:  0.19588) (V:  0.0801) 
+1123 20:01:30.848219 17976 c:\projects\lc0\src\mcts\search.cc:490] c2c4  (264 ) N:      26 (+ 2) (P: 17.75%) (WL:  0.08822) (D: 0.441) (M: 167.5) (Q:  0.08822) (U: 0.10738) (S:  0.19568) (V:  0.0867) 
+1123 20:01:30.848332 17976 c:\projects\lc0\src\mcts\search.cc:490] e2e4  (322 ) N:      28 (+ 2) (P: 19.29%) (WL:  0.08543) (D: 0.428) (M: 164.1) (Q:  0.08543) (U: 0.10919) (S:  0.19599) (V:  0.0814) 
+1123 20:01:30.848365 17976 c:\projects\lc0\src\mcts\search.cc:490] node  (  20) N:     101 (+ 7) (P: 81.99%) (WL:  0.07844) (D: 0.438) (M: 167.8) (Q:  0.07844) (V:  0.0726) 
+1123 20:01:30.848388 17976 c:\projects\lc0\src\mcts\search.cc:497] --- Opponent moves after: e2e4
+1123 20:01:30.848699 17976 c:\projects\lc0\src\mcts\search.cc:499] b7b5  (234 ) N:       0 (+ 0) (P:  0.76%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.06864) (S: -0.30100) (V:  -.----) 
+1123 20:01:30.848726 17976 c:\projects\lc0\src\mcts\search.cc:499] g7g5  (378 ) N:       0 (+ 0) (P:  0.77%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.06975) (S: -0.29989) (V:  -.----) 
+1123 20:01:30.848749 17976 c:\projects\lc0\src\mcts\search.cc:499] f7f5  (351 ) N:       0 (+ 0) (P:  0.78%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.07126) (S: -0.29839) (V:  -.----) 
+1123 20:01:30.848771 17976 c:\projects\lc0\src\mcts\search.cc:499] f7f6  (346 ) N:       0 (+ 0) (P:  0.81%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.07316) (S: -0.29648) (V:  -.----) 
+1123 20:01:30.848793 17976 c:\projects\lc0\src\mcts\search.cc:499] g8h6  (161 ) N:       0 (+ 0) (P:  0.82%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.07437) (S: -0.29527) (V:  -.----) 
+1123 20:01:30.848814 17976 c:\projects\lc0\src\mcts\search.cc:499] h7h5  (403 ) N:       0 (+ 0) (P:  0.90%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.08151) (S: -0.28813) (V:  -.----) 
+1123 20:01:30.848836 17976 c:\projects\lc0\src\mcts\search.cc:499] b8a6  (34  ) N:       0 (+ 0) (P:  0.95%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.08643) (S: -0.28321) (V:  -.----) 
+1123 20:01:30.848857 17976 c:\projects\lc0\src\mcts\search.cc:499] a7a5  (207 ) N:       0 (+ 0) (P:  1.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.09187) (S: -0.27777) (V:  -.----) 
+1123 20:01:30.848879 17976 c:\projects\lc0\src\mcts\search.cc:499] b7b6  (230 ) N:       0 (+ 0) (P:  1.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.09246) (S: -0.27719) (V:  -.----) 
+1123 20:01:30.848900 17976 c:\projects\lc0\src\mcts\search.cc:499] h7h6  (400 ) N:       0 (+ 0) (P:  1.12%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.10212) (S: -0.26752) (V:  -.----) 
+1123 20:01:30.848922 17976 c:\projects\lc0\src\mcts\search.cc:499] d7d5  (293 ) N:       0 (+ 0) (P:  2.46%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.22357) (S: -0.14607) (V:  -.----) 
+1123 20:01:30.848943 17976 c:\projects\lc0\src\mcts\search.cc:499] a7a6  (204 ) N:       0 (+ 0) (P:  2.50%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.22697) (S: -0.14267) (V:  -.----) 
+1123 20:01:30.848964 17976 c:\projects\lc0\src\mcts\search.cc:499] g7g6  (374 ) N:       0 (+ 0) (P:  2.75%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.24928) (S: -0.12036) (V:  -.----) 
+1123 20:01:30.848986 17976 c:\projects\lc0\src\mcts\search.cc:499] b8c6  (36  ) N:       0 (+ 0) (P:  2.89%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.26286) (S: -0.10679) (V:  -.----) 
+1123 20:01:30.849007 17976 c:\projects\lc0\src\mcts\search.cc:499] g8f6  (159 ) N:       0 (+ 0) (P:  2.98%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.27041) (S: -0.09923) (V:  -.----) 
+1123 20:01:30.849029 17976 c:\projects\lc0\src\mcts\search.cc:499] d7d6  (288 ) N:       0 (+ 0) (P:  3.31%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36964) (U: 0.30041) (S: -0.06923) (V:  -.----) 
+1123 20:01:30.849050 17976 c:\projects\lc0\src\mcts\search.cc:499] e7e6  (317 ) N:       2 (+ 1) (P:  8.71%) (WL: -0.11213) (D: 0.417) (M: 157.7) (Q: -0.11213) (U: 0.19780) (S:  0.08262) (V: -0.1057) 
+1123 20:01:30.849071 17976 c:\projects\lc0\src\mcts\search.cc:499] e7e5  (322 ) N:       5 (+ 1) (P: 15.69%) (WL: -0.10199) (D: 0.451) (M: 166.2) (Q: -0.10199) (U: 0.20349) (S:  0.10244) (V: -0.0952) 
+1123 20:01:30.849097 17976 c:\projects\lc0\src\mcts\search.cc:499] c7c6  (259 ) N:       8 (+ 0) (P: 20.72%) (WL: -0.08495) (D: 0.426) (M: 164.3) (Q: -0.08495) (U: 0.20908) (S:  0.12422) (V: -0.0769) 
+1123 20:01:30.849120 17976 c:\projects\lc0\src\mcts\search.cc:499] c7c5  (264 ) N:      12 (+ 0) (P: 29.05%) (WL: -0.07475) (D: 0.421) (M: 161.8) (Q: -0.07475) (U: 0.20294) (S:  0.12746) (V: -0.0687) 
+1123 20:01:30.849142 17976 c:\projects\lc0\src\mcts\search.cc:499] node  (  20) N:      28 (+ 2) (P: 74.17%) (WL: -0.08543) (D: 0.428) (M: 164.1) (Q: -0.08543) (V: -0.0814) 
+1123 20:01:30.849169 17976 c:\projects\lc0\src\chess\uciloop.cc:225] << bestmove e2e4 ponder c7c5
+1123 20:01:30.849446 3148 c:\projects\lc0\src\mcts\search.cc:922] End a watchdog thread.
+1123 20:01:52.757526 6352 c:\projects\lc0\src\chess\uciloop.cc:136] >> quit
+1123 20:01:52.757624 6352 c:\projects\lc0\src\mcts\search.cc:944] Aborting search, if it is still active.
+1123 20:01:52.757677 6352 c:\projects\lc0\src\mcts\search.cc:973] Search destroyed.
+
+
+============= Log started. =============
+1123 20:05:40.829777 1700 c:\projects\lc0\src\main.cc:45] Lc0 started.
+1123 20:05:40.830372 1700 c:\projects\lc0\src\main.cc:46] [1m[31m       _
+1123 20:05:40.830684 1700 c:\projects\lc0\src\main.cc:47] |   _ | |
+1123 20:05:40.830904 1700 c:\projects\lc0\src\main.cc:48] |_ |_ |_|[0m v0.28.2 built Dec 13 2021
+1123 20:05:40.917727 1700 c:\projects\lc0\src\utils\numa.cc:56] Detected 4 core(s) and 8 thread(s) in 1 group(s).
+1123 20:05:40.918240 1700 c:\projects\lc0\src\utils\numa.cc:61] Group 0 has 4 core(s) and 8 thread(s).
+1123 20:05:40.922915 1700 c:\projects\lc0\src\utils\commandline.cc:56] Command line: C:\Users\User\Documents\GitHub\lichess-bot\engines\lc0.exe --logfile=log.txt
+1123 20:05:45.282547 1700 c:\projects\lc0\src\chess\uciloop.cc:136] >> position fen 4k3/8/8/8/8/8/4P3/4K3 w - - 5 39
+1123 20:05:55.785503 1700 c:\projects\lc0\src\chess\uciloop.cc:136] >> go nodes 100
+1123 20:05:55.787199 1700 c:\projects\lc0\src\neural\loader.cc:244] Found pb network file: C:\Users\User\Documents\GitHub\lichess-bot\engines/744204.pb.gz
+1123 20:05:55.836724 1700 c:\projects\lc0\src\neural\factory.cc:91] Creating backend [blas]...
+1123 20:05:55.881679 1700 c:\projects\lc0\src\neural\blas\network_blas.cc:487] BLAS functions from DNNL version 1.5.0
+1123 20:05:55.882128 1700 c:\projects\lc0\src\neural\blas\network_blas.cc:494] BLAS max batch size is 256.
+1123 20:05:55.886238 1700 c:\projects\lc0\src\engine.cc:302] Timer started at 1123 20:05:55.785622
+1123 20:05:55.886472 14136 c:\projects\lc0\src\mcts\search.cc:892] Start a watchdog thread.
+1123 20:05:55.886637 18024 c:\projects\lc0\src\mcts\search.h:243] Started search thread.
+1123 20:05:55.886799 1700 c:\projects\lc0\src\mcts\search.cc:816] Search started. 101ms already passed.
+1123 20:05:55.886806 14548 c:\projects\lc0\src\mcts\search.h:243] Started search thread.
+1123 20:05:55.913439 18024 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 1 seldepth 2 time 127 nodes 2 score cp 9180 nps 400 tbhits 0 pv e1d2 e8e7
+1123 20:05:55.913893 14548 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 1 seldepth 2 time 128 nodes 3 score cp 11643 nps 600 tbhits 0 pv e1f2 e8d7
+1123 20:05:55.921289 18024 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 2 seldepth 3 time 135 nodes 4 score cp 6909 nps 333 tbhits 0 pv e1d2 e8e7 d2d3
+1123 20:05:55.945752 18024 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 2 seldepth 4 time 160 nodes 13 score cp 7965 nps 351 tbhits 0 pv e1d2 e8e7 d2d3 e7d7
+1123 20:05:55.962093 14548 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 4 time 176 nodes 21 score cp 8962 nps 396 tbhits 0 pv e1d2 e8d7 d2d3 d7e7
+1123 20:05:55.964894 18024 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 5 time 179 nodes 26 score cp 8999 nps 464 tbhits 0 pv e1d2 e8e7 d2d3 e7d7 d3d4
+1123 20:05:56.018105 14548 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 4 seldepth 6 time 232 nodes 53 score cp 8049 nps 486 tbhits 0 pv e1d2 e8d7 d2e3 d7e7 e3e4 e7e6
+1123 20:05:56.072050 18024 c:\projects\lc0\src\mcts\stoppers\stoppers.cc:65] Stopped search: Reached visits limit: 102>=100
+1123 20:05:56.072136 18024 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 4 seldepth 7 time 286 nodes 102 score cp 7626 nps 625 tbhits 0 pv e1d2 e8e7 d2d3 e7d7 d3d4 d7d6
+1123 20:05:56.072901 18024 c:\projects\lc0\src\mcts\search.cc:489] === Move stats:
+1123 20:05:56.072948 18024 c:\projects\lc0\src\mcts\search.cc:490] e2e4  (322 ) N:       1 (+ 0) (P:  3.37%) (WL:  0.00001) (D: 1.000) (M: 38.4) (Q:  0.00001) (U: 0.29677) (S:  0.29678) (V:  0.0000) 
+1123 20:05:56.072976 18024 c:\projects\lc0\src\mcts\search.cc:490] e2e3  (317 ) N:       1 (+ 0) (P:  9.43%) (WL:  0.00026) (D: 1.000) (M: 36.5) (Q:  0.00026) (U: 0.83139) (S:  0.83166) (V:  0.0003) 
+1123 20:05:56.073002 18024 c:\projects\lc0\src\mcts\search.cc:490] e1f1  (101 ) N:       1 (+ 0) (P:  4.10%) (WL:  0.73824) (D: 0.262) (M: 43.9) (Q:  0.73824) (U: 0.36188) (S:  1.09875) (V:  0.7382) 
+1123 20:05:56.073024 18024 c:\projects\lc0\src\mcts\search.cc:490] e1d1  (100 ) N:       1 (+ 0) (P:  6.31%) (WL:  0.56450) (D: 0.435) (M: 41.0) (Q:  0.56450) (U: 0.55668) (S:  1.12565) (V:  0.5645) 
+1123 20:05:56.073051 18024 c:\projects\lc0\src\mcts\search.cc:490] e1f2  (107 ) N:      43 (+ 3) (P: 34.46%) (WL:  0.99669) (D: 0.003) (M: 42.7) (Q:  0.99669) (U: 0.12929) (S:  1.12743) (V:  0.9996) 
+1123 20:05:56.073076 18024 c:\projects\lc0\src\mcts\search.cc:490] e1d2  (105 ) N:      54 (+ 4) (P: 42.32%) (WL:  0.99696) (D: 0.003) (M: 42.0) (Q:  0.99696) (U: 0.12649) (S:  1.12678) (V:  0.9982) 
+1123 20:05:56.073099 18024 c:\projects\lc0\src\mcts\search.cc:490] node  (   6) N:     102 (+ 7) (P: 100.0%) (WL:  0.96992) (D: 0.030) (M: 43.3) (Q:  0.96992) (V:  0.9356) 
+1123 20:05:56.073166 18024 c:\projects\lc0\src\mcts\search.cc:497] --- Opponent moves after: e1d2
+1123 20:05:56.073341 18024 c:\projects\lc0\src\mcts\search.cc:499] e8f8  (101 ) N:       4 (+ 0) (P:  7.69%) (WL: -0.99530) (D: 0.005) (M: 41.6) (Q: -0.99530) (U: 0.19596) (S: -0.80039) (V: -0.9985) 
+1123 20:05:56.073370 18024 c:\projects\lc0\src\mcts\search.cc:499] e8d8  (100 ) N:       6 (+ 0) (P: 11.51%) (WL: -0.99607) (D: 0.004) (M: 40.8) (Q: -0.99607) (U: 0.20940) (S: -0.78999) (V: -0.9970) 
+1123 20:05:56.073393 18024 c:\projects\lc0\src\mcts\search.cc:499] e8f7  (107 ) N:      12 (+ 0) (P: 20.44%) (WL: -0.99674) (D: 0.003) (M: 40.6) (Q: -0.99674) (U: 0.20033) (S: -0.80024) (V: -0.9961) 
+1123 20:05:56.073412 18024 c:\projects\lc0\src\mcts\search.cc:499] e8d7  (105 ) N:      15 (+ 2) (P: 29.86%) (WL: -0.99628) (D: 0.004) (M: 41.9) (Q: -0.99628) (U: 0.21134) (S: -0.78532) (V: -0.9935) 
+1123 20:05:56.073445 18024 c:\projects\lc0\src\mcts\search.cc:499] e8e7  (106 ) N:      16 (+ 2) (P: 30.51%) (WL: -0.99843) (D: 0.002) (M: 40.6) (Q: -0.99843) (U: 0.20456) (S: -0.79768) (V: -0.9941) 
+1123 20:05:56.073461 18024 c:\projects\lc0\src\mcts\search.cc:499] node  (   5) N:      54 (+ 4) (P: 100.0%) (WL: -0.99696) (D: 0.003) (M: 42.0) (Q: -0.99696) (V: -0.9982) 
+1123 20:05:56.073485 18024 c:\projects\lc0\src\chess\uciloop.cc:225] << bestmove e1d2 ponder e8e7
+1123 20:05:56.073793 14136 c:\projects\lc0\src\mcts\search.cc:922] End a watchdog thread.
+1123 20:11:01.182602 1700 c:\projects\lc0\src\chess\uciloop.cc:136] >> quit
+1123 20:11:01.182696 1700 c:\projects\lc0\src\mcts\search.cc:944] Aborting search, if it is still active.
+1123 20:11:01.182759 1700 c:\projects\lc0\src\mcts\search.cc:973] Search destroyed.
+
+
+============= Log started. =============
+1123 20:11:07.505654 2620 c:\projects\lc0\src\main.cc:45] Lc0 started.
+1123 20:11:07.506100 2620 c:\projects\lc0\src\main.cc:46] [1m[31m       _
+1123 20:11:07.506477 2620 c:\projects\lc0\src\main.cc:47] |   _ | |
+1123 20:11:07.506753 2620 c:\projects\lc0\src\main.cc:48] |_ |_ |_|[0m v0.28.2 built Dec 13 2021
+1123 20:11:07.903847 2620 c:\projects\lc0\src\utils\numa.cc:56] Detected 4 core(s) and 8 thread(s) in 1 group(s).
+1123 20:11:07.904285 2620 c:\projects\lc0\src\utils\numa.cc:61] Group 0 has 4 core(s) and 8 thread(s).
+1123 20:11:07.908081 2620 c:\projects\lc0\src\utils\commandline.cc:56] Command line: C:\Users\User\Documents\GitHub\lichess-bot\engines\lc0.exe --logfile=log.txt
+1123 20:12:01.170909 2620 c:\projects\lc0\src\chess\uciloop.cc:136] >> FEN position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+1123 20:12:01.170993 2620 c:\projects\lc0\src\utils\exception.h:39] Exception: Unknown command: FEN position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+1123 20:12:01.171081 2620 c:\projects\lc0\src\chess\uciloop.cc:225] << error Unknown command: FEN position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+1123 20:12:20.187057 2620 c:\projects\lc0\src\chess\uciloop.cc:136] >> position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+1123 20:12:23.855563 2620 c:\projects\lc0\src\chess\uciloop.cc:136] >> go nodes 100
+1123 20:12:23.857453 2620 c:\projects\lc0\src\neural\loader.cc:244] Found pb network file: C:\Users\User\Documents\GitHub\lichess-bot\engines/744204.pb.gz
+1123 20:12:23.915071 2620 c:\projects\lc0\src\neural\factory.cc:91] Creating backend [blas]...
+1123 20:12:23.967197 2620 c:\projects\lc0\src\neural\blas\network_blas.cc:487] BLAS functions from DNNL version 1.5.0
+1123 20:12:23.967810 2620 c:\projects\lc0\src\neural\blas\network_blas.cc:494] BLAS max batch size is 256.
+1123 20:12:23.971910 2620 c:\projects\lc0\src\engine.cc:302] Timer started at 1123 20:12:23.855663
+1123 20:12:23.972197 14628 c:\projects\lc0\src\mcts\search.cc:892] Start a watchdog thread.
+1123 20:12:23.972433 13484 c:\projects\lc0\src\mcts\search.h:243] Started search thread.
+1123 20:12:23.972583 2620 c:\projects\lc0\src\mcts\search.cc:816] Search started. 116ms already passed.
+1123 20:12:23.972632 1496 c:\projects\lc0\src\mcts\search.h:243] Started search thread.
+1123 20:12:24.002313 13484 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 1 seldepth 2 time 146 nodes 2 score cp 11 nps 400 tbhits 0 pv e2e4 c7c5
+1123 20:12:24.008524 1496 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 1 seldepth 2 time 152 nodes 3 score cp 12 nps 250 tbhits 0 pv c2c4 e7e5
+1123 20:12:24.020830 13484 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 2 seldepth 3 time 165 nodes 7 score cp 11 nps 291 tbhits 0 pv e2e4 c7c5 b1c3
+1123 20:12:24.022986 1496 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 2 seldepth 3 time 167 nodes 10 score cp 11 nps 384 tbhits 0 pv c2c4 e7e5 g2g3
+1123 20:12:24.032596 1496 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 2 seldepth 4 time 176 nodes 11 score cp 11 nps 305 tbhits 0 pv c2c4 e7e5 g2g3 g8f6
+1123 20:12:24.060397 1496 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 2 seldepth 4 time 204 nodes 19 score cp 11 nps 301 tbhits 0 pv e2e4 c7c5 b1c3 e7e6
+1123 20:12:24.078454 13484 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 5 time 222 nodes 26 score cp 11 nps 317 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2
+1123 20:12:24.120025 1496 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 6 time 264 nodes 34 score cp 11 nps 276 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2
+1123 20:12:24.166885 13484 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 7 time 311 nodes 50 score cp 11 nps 294 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2 b8c6
+1123 20:12:24.169098 1496 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 7 time 313 nodes 57 score cp 12 nps 331 tbhits 0 pv c2c4 e7e5 g2g3 g8f6 f1g2 f8c5
+1123 20:12:24.205504 13484 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 7 time 349 nodes 64 score cp 11 nps 306 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2 b8c6
+1123 20:12:24.205983 1496 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 3 seldepth 8 time 350 nodes 71 score cp 11 nps 339 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2 b8c6
+1123 20:12:24.242754 13484 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 4 seldepth 8 time 387 nodes 86 score cp 12 nps 349 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2 b8c6
+1123 20:12:24.276471 13484 c:\projects\lc0\src\mcts\stoppers\stoppers.cc:65] Stopped search: Reached visits limit: 101>=100
+1123 20:12:24.276701 13484 c:\projects\lc0\src\chess\uciloop.cc:225] << info depth 4 seldepth 8 time 421 nodes 101 score cp 12 nps 360 tbhits 0 pv e2e4 c7c5 b1c3 e7e6 g1e2 b8c6
+1123 20:12:24.277269 13484 c:\projects\lc0\src\mcts\search.cc:489] === Move stats:
+1123 20:12:24.277301 13484 c:\projects\lc0\src\mcts\search.cc:490] g2g4  (378 ) N:       0 (+ 0) (P:  0.73%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.12760) (S: -0.09277) (V:  -.----) 
+1123 20:12:24.277315 13484 c:\projects\lc0\src\mcts\search.cc:490] f2f3  (346 ) N:       0 (+ 0) (P:  0.80%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.14088) (S: -0.07949) (V:  -.----) 
+1123 20:12:24.277328 13484 c:\projects\lc0\src\mcts\search.cc:490] b1a3  (34  ) N:       0 (+ 0) (P:  0.84%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.14811) (S: -0.07226) (V:  -.----) 
+1123 20:12:24.277340 13484 c:\projects\lc0\src\mcts\search.cc:490] g1h3  (161 ) N:       0 (+ 0) (P:  0.86%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.15159) (S: -0.06878) (V:  -.----) 
+1123 20:12:24.277352 13484 c:\projects\lc0\src\mcts\search.cc:490] h2h4  (403 ) N:       0 (+ 0) (P:  0.89%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.15594) (S: -0.06443) (V:  -.----) 
+1123 20:12:24.277364 13484 c:\projects\lc0\src\mcts\search.cc:490] b2b4  (234 ) N:       0 (+ 0) (P:  0.96%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.16886) (S: -0.05151) (V:  -.----) 
+1123 20:12:24.277375 13484 c:\projects\lc0\src\mcts\search.cc:490] f2f4  (351 ) N:       0 (+ 0) (P:  0.98%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.17221) (S: -0.04817) (V:  -.----) 
+1123 20:12:24.277387 13484 c:\projects\lc0\src\mcts\search.cc:490] a2a4  (207 ) N:       0 (+ 0) (P:  1.79%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.31456) (S:  0.09419) (V:  -.----) 
+1123 20:12:24.277399 13484 c:\projects\lc0\src\mcts\search.cc:490] d2d3  (288 ) N:       0 (+ 0) (P:  2.22%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.39006) (S:  0.16968) (V:  -.----) 
+1123 20:12:24.277410 13484 c:\projects\lc0\src\mcts\search.cc:490] a2a3  (204 ) N:       0 (+ 0) (P:  2.46%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.43155) (S:  0.21118) (V:  -.----) 
+1123 20:12:24.277422 13484 c:\projects\lc0\src\mcts\search.cc:490] b2b3  (230 ) N:       0 (+ 0) (P:  2.73%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.47867) (S:  0.25830) (V:  -.----) 
+1123 20:12:24.277434 13484 c:\projects\lc0\src\mcts\search.cc:490] h2h3  (400 ) N:       0 (+ 0) (P:  2.73%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (U: 0.47907) (S:  0.25870) (V:  -.----) 
+1123 20:12:24.277445 13484 c:\projects\lc0\src\mcts\search.cc:490] c2c3  (259 ) N:       2 (+ 0) (P:  3.41%) (WL:  0.01640) (D: 0.434) (M: 167.3) (Q:  0.01640) (U: 0.19944) (S:  0.21588) (V:  0.0249) 
+1123 20:12:24.277457 13484 c:\projects\lc0\src\mcts\search.cc:490] b1c3  (36  ) N:       2 (+ 0) (P:  3.62%) (WL:  0.01443) (D: 0.424) (M: 163.4) (Q:  0.01443) (U: 0.21185) (S:  0.22656) (V:  0.0184) 
+1123 20:12:24.277468 13484 c:\projects\lc0\src\mcts\search.cc:490] e2e3  (317 ) N:       3 (+ 0) (P:  4.43%) (WL:  0.02603) (D: 0.443) (M: 168.8) (Q:  0.02603) (U: 0.19443) (S:  0.22033) (V:  0.0370) 
+1123 20:12:24.277480 13484 c:\projects\lc0\src\mcts\search.cc:490] g2g3  (374 ) N:       4 (+ 0) (P:  5.40%) (WL:  0.04162) (D: 0.440) (M: 167.3) (Q:  0.04162) (U: 0.18943) (S:  0.23113) (V:  0.0507) 
+1123 20:12:24.277492 13484 c:\projects\lc0\src\mcts\search.cc:490] g1f3  (159 ) N:      11 (+ 0) (P: 10.45%) (WL:  0.07377) (D: 0.456) (M: 169.8) (Q:  0.07377) (U: 0.15277) (S:  0.22589) (V:  0.0655) 
+1123 20:12:24.277503 13484 c:\projects\lc0\src\mcts\search.cc:490] d2d4  (293 ) N:      24 (+ 3) (P: 17.64%) (WL:  0.08528) (D: 0.441) (M: 167.6) (Q:  0.08528) (U: 0.11053) (S:  0.19589) (V:  0.0801) 
+1123 20:12:24.277515 13484 c:\projects\lc0\src\mcts\search.cc:490] c2c4  (264 ) N:      26 (+ 2) (P: 17.75%) (WL:  0.08822) (D: 0.441) (M: 167.5) (Q:  0.08822) (U: 0.10738) (S:  0.19569) (V:  0.0867) 
+1123 20:12:24.277530 13484 c:\projects\lc0\src\mcts\search.cc:490] e2e4  (322 ) N:      28 (+ 2) (P: 19.29%) (WL:  0.08544) (D: 0.429) (M: 164.1) (Q:  0.08544) (U: 0.10919) (S:  0.19597) (V:  0.0814) 
+1123 20:12:24.277545 13484 c:\projects\lc0\src\mcts\search.cc:490] node  (  20) N:     101 (+ 7) (P: 81.99%) (WL:  0.07845) (D: 0.439) (M: 167.8) (Q:  0.07845) (V:  0.0726) 
+1123 20:12:24.277557 13484 c:\projects\lc0\src\mcts\search.cc:497] --- Opponent moves after: e2e4
+1123 20:12:24.277716 13484 c:\projects\lc0\src\mcts\search.cc:499] b7b5  (234 ) N:       0 (+ 0) (P:  0.76%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.06864) (S: -0.30101) (V:  -.----) 
+1123 20:12:24.277732 13484 c:\projects\lc0\src\mcts\search.cc:499] g7g5  (378 ) N:       0 (+ 0) (P:  0.77%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.06975) (S: -0.29990) (V:  -.----) 
+1123 20:12:24.277745 13484 c:\projects\lc0\src\mcts\search.cc:499] f7f5  (351 ) N:       0 (+ 0) (P:  0.78%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.07126) (S: -0.29839) (V:  -.----) 
+1123 20:12:24.277757 13484 c:\projects\lc0\src\mcts\search.cc:499] f7f6  (346 ) N:       0 (+ 0) (P:  0.81%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.07316) (S: -0.29649) (V:  -.----) 
+1123 20:12:24.277768 13484 c:\projects\lc0\src\mcts\search.cc:499] g8h6  (161 ) N:       0 (+ 0) (P:  0.82%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.07437) (S: -0.29527) (V:  -.----) 
+1123 20:12:24.277780 13484 c:\projects\lc0\src\mcts\search.cc:499] h7h5  (403 ) N:       0 (+ 0) (P:  0.90%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.08151) (S: -0.28814) (V:  -.----) 
+1123 20:12:24.277792 13484 c:\projects\lc0\src\mcts\search.cc:499] b8a6  (34  ) N:       0 (+ 0) (P:  0.95%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.08643) (S: -0.28322) (V:  -.----) 
+1123 20:12:24.277804 13484 c:\projects\lc0\src\mcts\search.cc:499] a7a5  (207 ) N:       0 (+ 0) (P:  1.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.09187) (S: -0.27778) (V:  -.----) 
+1123 20:12:24.277815 13484 c:\projects\lc0\src\mcts\search.cc:499] b7b6  (230 ) N:       0 (+ 0) (P:  1.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.09246) (S: -0.27719) (V:  -.----) 
+1123 20:12:24.277827 13484 c:\projects\lc0\src\mcts\search.cc:499] h7h6  (400 ) N:       0 (+ 0) (P:  1.12%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.10212) (S: -0.26753) (V:  -.----) 
+1123 20:12:24.277838 13484 c:\projects\lc0\src\mcts\search.cc:499] d7d5  (293 ) N:       0 (+ 0) (P:  2.46%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.22357) (S: -0.14607) (V:  -.----) 
+1123 20:12:24.277850 13484 c:\projects\lc0\src\mcts\search.cc:499] a7a6  (204 ) N:       0 (+ 0) (P:  2.50%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.22697) (S: -0.14268) (V:  -.----) 
+1123 20:12:24.277861 13484 c:\projects\lc0\src\mcts\search.cc:499] g7g6  (374 ) N:       0 (+ 0) (P:  2.75%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.24928) (S: -0.12037) (V:  -.----) 
+1123 20:12:24.277873 13484 c:\projects\lc0\src\mcts\search.cc:499] b8c6  (36  ) N:       0 (+ 0) (P:  2.89%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.26286) (S: -0.10679) (V:  -.----) 
+1123 20:12:24.277884 13484 c:\projects\lc0\src\mcts\search.cc:499] g8f6  (159 ) N:       0 (+ 0) (P:  2.98%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.27041) (S: -0.09924) (V:  -.----) 
+1123 20:12:24.277896 13484 c:\projects\lc0\src\mcts\search.cc:499] d7d6  (288 ) N:       0 (+ 0) (P:  3.31%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.36965) (U: 0.30041) (S: -0.06924) (V:  -.----) 
+1123 20:12:24.277907 13484 c:\projects\lc0\src\mcts\search.cc:499] e7e6  (317 ) N:       2 (+ 1) (P:  8.71%) (WL: -0.11213) (D: 0.417) (M: 157.7) (Q: -0.11213) (U: 0.19780) (S:  0.08258) (V: -0.1057) 
+1123 20:12:24.277919 13484 c:\projects\lc0\src\mcts\search.cc:499] e7e5  (322 ) N:       5 (+ 1) (P: 15.69%) (WL: -0.10199) (D: 0.451) (M: 166.2) (Q: -0.10199) (U: 0.20349) (S:  0.10240) (V: -0.0952) 
+1123 20:12:24.277993 13484 c:\projects\lc0\src\mcts\search.cc:499] c7c6  (259 ) N:       8 (+ 0) (P: 20.72%) (WL: -0.08497) (D: 0.429) (M: 164.6) (Q: -0.08497) (U: 0.20908) (S:  0.12428) (V: -0.0769) 
+1123 20:12:24.278012 13484 c:\projects\lc0\src\mcts\search.cc:499] c7c5  (264 ) N:      12 (+ 0) (P: 29.05%) (WL: -0.07475) (D: 0.421) (M: 161.8) (Q: -0.07475) (U: 0.20294) (S:  0.12743) (V: -0.0687) 
+1123 20:12:24.278024 13484 c:\projects\lc0\src\mcts\search.cc:499] node  (  20) N:      28 (+ 2) (P: 74.17%) (WL: -0.08544) (D: 0.429) (M: 164.1) (Q: -0.08544) (V: -0.0814) 
+1123 20:12:24.278040 13484 c:\projects\lc0\src\chess\uciloop.cc:225] << bestmove e2e4 ponder c7c5
+1123 20:12:24.278231 14628 c:\projects\lc0\src\mcts\search.cc:922] End a watchdog thread.
